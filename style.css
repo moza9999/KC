@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+	background: url(./img/bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+  padding-bottom: 40px;
+
+}
+
+.btns{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.visitor{
+  display: flex;
+  justify-content: center;
+}
+
+/* General button style */
+.btn {
+	font-family: 'Bree Serif', serif!important;
+	border: none;
+  font-weight: 500!important;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: .375rem  6.75rem!important;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  height: 60px;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before {
+	font-family: 'FontAwesome';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+  line-height: 2.5;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* Icon separator */
+.btn-sep {
+	padding: 25px 60px 25px 120px;
+}
+
+.btn-sep:before {
+	background: rgba(0,0,0,0.15);
+}
+
+/* Button 1 */
+.btn-1 {
+	background: #681576;
+	color: #fff;
+}
+
+.btn-1:hover {
+	background: #4b0257;
+}
+
+.btn-1:active {
+	background: #4b0257;
+	top: 2px;
+}
+
+.btn-1:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+   line-height: 2.5;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Button 2 */
+.btn-2 {
+	background: #862697;
+	color: #fff;
+}
+
+.btn-2:hover {
+	background: #4b0257;
+}
+
+.btn-2:active {
+	background: #4b0257;
+	top: 2px;
+}
+
+.btn-2:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+   line-height: 2.5;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Button 3 */
+.btn-3 {
+	background: #9a39ac;
+	color: #fff;
+}
+
+.btn-3:hover {
+	background: #4b0257;
+}
+
+.btn-3:active {
+	background: #4b0257;
+	top: 2px;
+}
+
+.btn-3:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+   line-height: 2.5;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Button 3 */
+.btn-4 {
+	background: #b459c4;
+	color: #fff;
+}
+
+.btn-4:hover {
+	background: #4b0257;
+}
+
+.btn-4:active {
+	background: #4b0257;
+	top: 2px;
+}
+
+.btn-4:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+   line-height: 2.5;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Icons */
+
+.icon-cart:before {
+	content: "\f232";
+}
+
+.icon-heart:before {
+	content: "\f041";
+}
+
+.icon-info:before {
+	content: "\f0ac";
+}
+
+.icon-send:before {
+	content: "\f095";
+}
