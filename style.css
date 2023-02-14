@@ -89,8 +89,8 @@ font-family: 'Cairo', sans-serif;!important;
 
 /* Button 1 */
 .btn-1 {
-	background: #681576;
-	color: #fff;
+	background: #747474;
+	color: #000;
 }
 
 .btn-1:hover {
@@ -114,16 +114,16 @@ font-family: 'Cairo', sans-serif;!important;
 
 /* Button 2 */
 .btn-2 {
-	background: #862697;
-	color: #fff;
+	background: #979797;
+	color: #000;
 }
 
 .btn-2:hover {
-	background: #4b0257;
+	background: #979797;
 }
 
 .btn-2:active {
-	background: #4b0257;
+	background: #979797;
 	top: 2px;
 }
 
@@ -139,16 +139,16 @@ font-family: 'Cairo', sans-serif;!important;
 
 /* Button 3 */
 .btn-3 {
-	background: #9a39ac;
-	color: #fff;
+	background: #afafaf;
+	color: #000;
 }
 
 .btn-3:hover {
-	background: #4b0257;
+	background: #afafaf;
 }
 
 .btn-3:active {
-	background: #4b0257;
+	background: #afafaf;
 	top: 2px;
 }
 
@@ -164,16 +164,16 @@ font-family: 'Cairo', sans-serif;!important;
 
 /* Button 3 */
 .btn-4 {
-	background: #b459c4;
-	color: #fff;
+	background: #c6c6c6;
+	color: #000;
 }
 
 .btn-4:hover {
-	background: #4b0257;
+	background: #c6c6c6;
 }
 
 .btn-4:active {
-	background: #4b0257;
+	background: #c6c6c6;
 	top: 2px;
 }
 
