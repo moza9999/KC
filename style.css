@@ -14,6 +14,10 @@ body {
   padding-bottom: 40px;
 
 }
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: aliceblue;
+}
 
 .btns{
 
@@ -104,6 +108,7 @@ body {
 }
 
 .btn-1:before {
+	background: cornflowerblue;
 	position: absolute;
 	height: 100%;
 	left: 0;
@@ -129,6 +134,8 @@ body {
 }
 
 .btn-2:before {
+	background: #21d321;
+
 	position: absolute;
 	height: 100%;
 	left: 0;
@@ -154,6 +161,7 @@ body {
 }
 
 .btn-3:before {
+	    background: lightcoral;
 	position: absolute;
 	height: 100%;
 	left: 0;
@@ -179,6 +187,7 @@ body {
 }
 
 .btn-4:before {
+	background: #ffe000;
 	position: absolute;
 	height: 100%;
 	left: 0;
